@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #292524;
+  font-weight: 500;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  color: #292524;
+}
+
+a {
+  color: #292524;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+/* header */
+
+.nav-list {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-blog {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* logo */
+
+.hero-bg {
+  background: #fde047;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.nav-btn {
+  padding: 14px 32px;
+}
+
+.logo-btn {
+  border: 1px solid #000000;
+  border-radius: 30px;
+}
+
+/* hero */
+
+.hero-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 50px;
+}
+
+.hero-title {
+  font-size: 54px;
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+
+.heros-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logos-btn {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 14px 32px;
+}
+
+.nav-btns {
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+  padding: 14px 32px;
+}
+
+.logo-links {
+  margin-top: 125px;
+}
+.card-text p {
+  margin-bottom: 0 !important;
+}
+.food-drink-link {
+  border-radius: 10px;
+  border: 2px solid black;
+  display: inline-block;
+  padding: 12px 20px;
+}
+.swipper-slide {
+  position: relative;
+}
+
+.swipper-slide img {
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  mix-blend-mode: multiply;
+  border-radius: 5px;
+}
+.swipper-box {
+  position: absolute;
+  left: 40px;
+  right: 170px;
+  bottom: 40px;
+}
+
+.swipper-title {
+  font-size: 38px;
+  line-height: 46px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.swipper-text {
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.swiper-width {
+  width: 439.94px !important;
+  height: 499.8px !important;
+}
+.swiper-image {
+  width: 439.94px !important;
+  height: 499.8px !important;
+}
+.how-works p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.how-text {
+  max-width: 600px;
+}
+.step-card h4 {
+  padding-top: 10px;
+}
+.step-card-1 h4 {
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+}
+.what-card {
+  margin-left: 0;
+}
+.become {
+  background: #fde047;
+  height: 70%;
+}
+/* How it works */
+
+.step-title {
+  font-size: 22px;
+  line-height: 20px;
+}
+
+.card-blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+/* Why Caterly? */
+
+.caterly {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 120px;
+}
+
+/* What our customers say... */
+
+.main-swipper {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.swiper-card {
+  padding: 30px 30px;
+  width: 334.9px;
+  height: 283.49px;
+}
+.main-card-left {
+  width: 26%;
+}
+.customerSwiper {
+  width: 74%;
+}
+.ms-5 {
+  margin-right: 84px !important;
+  margin-left: 0px !important;
+}
+.h-6 {
+  height: 121px;
+}
+
+/* network-icon */
+
+.network-icon {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  align-items: center;
+  grid-gap: 10px;
+}
+
+/* footer */
+
+.footer-link {
+  color: #fde047;
+  font-size: 15px;
+  line-height: 36px;
+}
+
+.footer-title {
+  color: #fafaf9;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.footer-hr {
+  border: 1px solid #44403c;
+}
+.input-cart {
+  width: 80%;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+.input-link {
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #a8a29e;
+  padding-bottom: 10px;
+}
+
+.footer-links {
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 26px;
+}
+.quisque {
+  background: #fde047;
+}
+.suppliers {
+  padding: 20px 30px;
+  border-radius: 50px;
+  background: #000000;
+  color: #ffffff;
+}

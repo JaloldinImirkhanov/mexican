@@ -1,0 +1,82 @@
+@media (max-width: 375px) {
+  .hero-left {
+    margin: 0 auto;
+  }
+  .hero-right {
+    display: none;
+  }
+
+  .hero-title {
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -1px;
+  }
+
+  .card-info {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-left {
+    margin: 0 auto;
+  }
+  .hero-right {
+    display: none;
+  }
+  .hero-card {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    align-items: center;
+    grid-gap: 50px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+  .card-links {
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .hero-title {
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -1px;
+  }
+
+  .logos-btn {
+    padding: 13px;
+  }
+
+  .nav-btns {
+    padding: 13px;
+  }
+
+  .heros-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+  }
+
+  .card-info {
+    padding-top: 20px;
+  }
+
+  @media (max-width: 1024px) {
+    .nav-btn {
+      display: none;
+    }
+    .hero-left {
+      margin: 0 auto;
+    }
+    .hero-right {
+      display: none;
+    }
+    .card-food-drink button {
+      display: none;
+    }
+    .brend-card {
+    }
+  }
+}
