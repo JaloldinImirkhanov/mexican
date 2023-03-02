@@ -37,7 +37,20 @@ a {
 }
 
 /* header */
-
+header {
+  background: #e8cd41;
+}
+.hero-left {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
 .nav-list {
   margin-bottom: 0;
   display: flex;
@@ -92,13 +105,25 @@ a {
   align-items: center;
   grid-gap: 50px;
 }
-
+.hero-card p {
+  max-width: 80%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+}
 .hero-title {
+  max-width: 80%;
+  font-weight: 500;
   font-size: 54px;
   line-height: 72px;
   letter-spacing: -1px;
 }
-
+.main_info p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
 .heros-btn {
   display: flex;
   align-items: center;
@@ -117,9 +142,18 @@ a {
   line-height: 15px;
   text-align: center;
   color: #ffffff;
-  padding: 14px 32px;
+  padding: 19px 32px;
 }
-
+.hero-text-btn {
+  margin-bottom: 2px;
+  border-bottom: 1px solid black;
+}
+.hero-btn {
+  font-family: "Libre Baskerville";
+}
+.title-hero {
+  font-family: "Libre Baskerville";
+}
 .logo-links {
   margin-top: 125px;
 }
@@ -134,6 +168,21 @@ a {
 }
 .swipper-slide {
   position: relative;
+}
+.title-explore {
+  font-family: "Libre Baskerville";
+}
+.explore-title {
+  max-width: 90%;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: -1px;
+}
+.explore-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .swipper-slide img {
@@ -197,8 +246,9 @@ a {
 /* How it works */
 
 .step-title {
-  font-size: 22px;
-  line-height: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .card-blog {
@@ -306,4 +356,97 @@ a {
   border-radius: 50px;
   background: #000000;
   color: #ffffff;
+}
+.catering {
+  background: #d9c354;
+  border-radius: 38px;
+  color: #000000;
+}
+.explore-card {
+  overflow: hidden;
+  position: absolute;
+  top: 70%;
+  bottom: 0;
+  width: 85%;
+  height: 50%;
+  border-radius: 0px;
+  opacity: 0;
+  transition: 0.4s ease;
+}
+.explore-card:hover {
+  opacity: 1;
+}
+.explore-card-title {
+  margin: 0 auto;
+  max-width: 70%;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+.card-food-drink span {
+  font-family: "Libre Baskerville";
+}
+.card-food-drink h3 {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 46px;
+}
+.card-food-drink p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.food-title h3 {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 22px;
+  color: #ffffff;
+  text-align: center;
+}
+.food-title {
+  position: absolute;
+  top: 70%;
+  bottom: 0;
+  width: 85%;
+  height: 50%;
+  border-radius: 0px;
+  opacity: 0;
+  transition: 0.4s ease;
+}
+.food-title:hover {
+  opacity: 1;
+}
+.card-food-drink img {
+  padding: 0 10px;
+}
+.info-titles {
+  font-family: "Libre Baskerville";
+}
+.btn {
+  font-family: "Libre Baskerville";
+}
+.mexico-title {
+  max-width: 90% !important;
+}
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+.card-text {
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 15px;
+}
+.card-body {
+  padding: 15px 15px;
+}
+.quisque h3 {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
 }
